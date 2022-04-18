@@ -1,6 +1,6 @@
 ---
 - name: Pull docker image
-  hosts: all
+  hosts: ubuntu
   tasks:
     - name: Pull image
       docker_image:
